@@ -26,7 +26,7 @@ pip install torch torchvision torchaudio
 1. **データ準備**: `input.txt` ファイルをプロジェクトルートに配置
 2. **実行**: 
    ```bash
-   python buildGPTfromscratch_4_bk.py
+   python buildGPTfromscratch.py
    ```
 
 ## ハイパーパラメータ
@@ -40,7 +40,7 @@ pip install torch torchvision torchaudio
 
 ## ファイル構成
 
-- `buildGPTfromscratch_4_bk.py`: メインのGPT実装
+- `buildGPTfromscratch.py`: メインのGPT実装
 - `input.txt`: 訓練用テキストデータ
 - `checkpoints/`: モデルチェックポイント保存ディレクトリ
 
