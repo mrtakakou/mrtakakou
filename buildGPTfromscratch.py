@@ -22,7 +22,7 @@ dropout = 0.2
 torch.manual_seed(1337)
 
 # データファイルの存在確認
-input_file = '/Users/ryotaabe/Desktop/github_local/zerotohero/microgradsample/input.txt'
+input_file = 'input.txt'
 if not os.path.exists(input_file):
     print(f"エラー: ファイル {input_file} が見つかりません。")
     print("input.txtファイルが正しいパスに存在することを確認してください。")
